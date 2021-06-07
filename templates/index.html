@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoHub</title>
+</head>
+<style>
+    #overview{
+        background-color: cyan;
+    }
+    #formBox{
+        margin: 0 0 0 80vh;
+        max-width: 50%;
+    }
+    .welcome{
+        max-width: 40%;
+        margin: 0 95vh 10vh 80vh;
+    }
+</style>
+<body id="overview">
+    <nav>
+        <div class="welcome">
+            <h3>Welcome to InfoHub</h3>
+        </div>
+    </nav>
+    <section>
+    <div id="formBox">
+        <form action="/upload">
+            <input type="text" name="Name" id="Name" placeholder="Enter your Name"><br/>
+            <input type="email" name="Email" id="Email" placeholder="Enter your Email address"><br/>
+            Enter your date of birth <br/><input type="date" name="date" id="date"><br/>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+</body>
+</html>
